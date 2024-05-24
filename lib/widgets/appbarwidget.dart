@@ -12,9 +12,10 @@ class AppBarWidget extends StatelessWidget {
           InkWell(
             onTap: () {
               Scaffold.of(context).openDrawer();
+
             },
             child: Container(
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(20),

@@ -4,6 +4,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:food_app/widgets/appbarwidget.dart';
 
 import '../widgets/item_nav_bar.dart';
+import '../widgets/my_drawer.dart';
 
 class ItemPage extends StatelessWidget {
   const ItemPage({super.key});
@@ -12,6 +13,7 @@ class ItemPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       bottomNavigationBar: const ItemNavBar(),
+      drawer: const MyDrawer(),
 
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 1),
